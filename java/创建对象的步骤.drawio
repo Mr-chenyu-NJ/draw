@@ -46,7 +46,7 @@
         <mxCell id="GGSdh9WOFRllH7GP3ash-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;1.对象hash码&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;2.分代标志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;3.锁的状态标志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;4.执行类元信息的指针&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="210" x="1085" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="GGSdh9WOFRllH7GP3ash-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;1.显示复制&lt;/span&gt;" vertex="1">
+        <mxCell id="GGSdh9WOFRllH7GP3ash-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;1.显示赋值&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;2.实例代码块&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;3.构造方法&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="170" width="210" x="1390" y="510" as="geometry" />
         </mxCell>
       </root>
