@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="36E8L2El0OuchAUsurod">
+    <mxGraphModel dx="2054" dy="1061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GGSdh9WOFRllH7GP3ash-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;创建对象的步骤&lt;/font&gt;" vertex="1">
+          <mxGeometry height="140" width="840" x="407" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-8" edge="1" parent="1" source="GGSdh9WOFRllH7GP3ash-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GGSdh9WOFRllH7GP3ash-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;类的加载检查&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-9" edge="1" parent="1" source="GGSdh9WOFRllH7GP3ash-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GGSdh9WOFRllH7GP3ash-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;分配内存空间&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="444" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-10" edge="1" parent="1" source="GGSdh9WOFRllH7GP3ash-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GGSdh9WOFRllH7GP3ash-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;初始化零值&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="767" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-11" edge="1" parent="1" source="GGSdh9WOFRllH7GP3ash-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="GGSdh9WOFRllH7GP3ash-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;设置对象头&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1130" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;执行&amp;lt;init&amp;gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1410" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;检查类符号引用是否在常量池，不存在执行类加载过程&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="80" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;分配内存&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;指针碰撞：内存规整&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;空闲列表：内存不规整&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;和垃圾回收器有关&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="420" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;属性默认值&lt;/span&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="750" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;1.对象hash码&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;2.分代标志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;3.锁的状态标志&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;4.执行类元信息的指针&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="1085" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GGSdh9WOFRllH7GP3ash-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;1.显示赋值&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;2.实例代码块&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;3.构造方法&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="210" x="1390" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
